@@ -1,0 +1,190 @@
+
+/* Linha que alinha o registrar e Entrar */
+*{ 
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+/* Backgroud , papel de fundo (parede)*/
+body {
+  background:url(../imagens/Papel.jpg);
+  font-family: 'Titillium Web', sans-serif;
+  background-size:cover;
+}
+
+/*Esqueceu a Senha*/
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: .5s ease;
+}
+
+/*Cor do Esqueceu a senha quando mouse esta em cima*/
+a:hover {
+  color: #1C1C1C;
+}
+
+/*Caixa quadrada*/
+.form {
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  transition: .5s ease;
+}
+
+/*Quando mouse esta em cima do quadrado*/
+.form:hover {
+	box-shadow: 0px 0px 40px 16px rgba(18,18,18,1.00);
+	}
+
+/*Altura da caixa*/
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+/**/
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Botoes do topo*/
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: #1ab188;
+  color: #ffffff;
+}
+
+/*Separa o Resgistrar e o Entrar de janela*/
+.tab-content > div:last-child {
+  display: none;
+}
+
+/*Espaco entre o bem vindo e o email*/
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+/*Coloca os textos no label*/
+label {
+  position: absolute;
+  transform: translateY(6px);
+  left: 13px;
+  color: rgba(255,255,255,0.7);
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-size: 20px;
+}
+label .req {
+  margin: 2px;
+  color: red;
+}
+
+/*Letra desce quando vc clica*/
+label.active {
+  transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+
+/*Tamanho do texto em baxio da texbox*/
+label.highlight {
+  color: #000;
+  margin-top:-10px;
+}
+
+input {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+ 
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus{
+  outline: 0;
+  border-color: #000;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Espaco do text box*/
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+/*Definiçoes do botao entrar*/
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+/*botao Entrar quando mouse é posicionado em cima*/
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+/* Largura do botao Entrar */
+.button-block {
+  display: block;
+  width: 25%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,74 @@
+﻿body2 {
+	font-family: 'Open Sans', Helvetica !important;
+	-webkit-font-smoothing: antialiased !important;
+    text-shadow: none;
+    font-size: 15px !important;
+    line-height: 1.58857;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 1.25 !important;
+	
+}
+
+footer, footer small {
+	font-size: 12px !important; /* tamanho dos links */
+	line-height: 17px;
+}
+
+footer p {
+	font-size: 14px !important;
+	line-height: 20px;
+	color: #cbcbcb; /*  Texto normal */
+}
+
+footer {
+	line-height: 19px !important; /* Tamanho do footer */
+	background: rgb(59, 65, 68) !important; /* Cor de fundo do footer */
+}
+
+footer {
+	padding: 30px 0;
+	color: rgb(177, 172, 172); /* descrição @GED 2018  */ 
+}
+
+footer a, footer a:hover {	
+	color: rgb(255, 255, 255); /* Textos links */
+}
+
+footer h3 {
+	margin-top: 0;
+	color: #fff; /* Cor do H3 */
+	font-size: 17px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid rgb(78, 85, 89); /* linha que separa as escritas */
+}
+
+footer ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+footer ul li {
+	margin-bottom: 4px;
+}
+
+/* Images
+-------------------------------------------------------------- */
+
+#foot-sec img {
+	max-width: 105px; /* Altura */
+	margin-right: 30px;
+	height: auto;
+	margin-bottom: 6px;
+}
+/* /Images
+-------------------------------------------------------------- */
+
+p {
+	color: #000000;
+}
+
+h2 {
+	color: #000000;
+}

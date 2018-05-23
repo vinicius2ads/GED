@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Teste</title>
+    </head>
+    <body class="container">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/style.css" rel="stylesheet">
+        <h1>Cadastrar Novo Produto</h1>
+        <form id="frmCadPro" name="frmCadPro" method="post" action="teste.php">
+           <div class="form-group">
+              <label for="lblNome">Descrição:</label>
+              <input type="text" class="form-control" id="txtNome" name="txtNome" placeholder="nome do produto...">
+           </div>
+           <div class="form-group">
+              <label for="lblIdade">Idade:</label>
+              <input type="text" class="form-control" name="txtIdade" id="txtIdade"  placeholder="pct ou lt ou grf, etc..">
+           </div>        
+           <input name="bt_cad" id="bt_cad" class="btn btn-success" type="submit" value="Gravar"> 
+           <input name="bt_limpar" id="bt_limpar" class="btn btn-warning" type="reset" value="Limpar"> 
+           <input name="bt_voltar" id="bt_voltar" class="btn btn-danger" type="button" value="Voltar"
+                 onclick="javascript:location.href='listarPro.php'"> 
+        </form>        
+    </body>
+</html>
+
+
