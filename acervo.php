@@ -325,23 +325,16 @@
 							<div class="col-one">
                             <?php while ($row = mysql_fetch_array($rs)) { ?>
             
-								<h3><img src="imagens/pdf.png"></img> Assunto <span class='badge' style='background:#0aa655'>id:<?php echo $row['id'] ?></span></h3>
+								<h3><img src="imagens/pdf.png"></img> Assunto: &nbsp <?php echo $row['assunto'] ?> <span class='badge' style='background:#0aa655'>id: &nbsp<?php echo $row['id'] ?></span></h3>
+								<h3 align="left">Data: &nbsp <?php echo $row['data'] ?> </h3>
 							</div>
                             <div class="row col-md-7">
         <table  class="table table-striped table table-hover">
             <?php } ?>  
         </table>
      </div>
-							
-
-						</li>
 						
-												
-	
-
-
-
-			
+						</li>
 		</section>
 	</div>
 
